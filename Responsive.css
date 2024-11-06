@@ -1,0 +1,507 @@
+@media screen and (max-width:1024px) {
+    .navbar .container{
+        position: relative;
+    }
+    .navbar .container .nav-menu ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 40px;
+        background-color: lightsteelblue;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar .container .nav-menu ul li{
+        text-align: center;
+        margin: 10px;
+    }
+    .navbar .container .nav-menu ul li a{
+        color: white;
+        transition: all 0.3s ease;
+    }  
+    .navbar .container .nav-menu ul li a:hover{
+        color: white;
+        background-color: none;
+        padding: 0;
+        transition: all 0.3s ease;
+    } 
+    .navbar .container .nav-menu ul .drop-list .drop-menu{
+        position: absolute;
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        cursor: pointer;
+        /* background-color: rgb(60, 177, 177); */
+        border: 1px solid black;
+        backdrop-filter: blur(10px);
+        border-radius: 40px;
+    }
+    .navbar .container .hamburger .ico{
+        visibility: visible;
+        position: absolute;
+        right: 290px;
+        color: white;
+        bottom: 7px;
+        z-index: 100;
+    }
+}
+@media screen and (max-width:1024px){
+    .banner .container .row .row-left h1{
+        font-size: 30px;
+    }
+    .banner .container .row .row-right p{
+        font-size: 14px;
+    }
+    .banner .container .row .row-right a{
+        font-size: 14px;
+    }
+    .about-us .container .row-right .one img{
+        width: 220px;
+        position: relative;
+        left: 70px;
+        top: 30px;
+    }
+    .about-us .container .row-right .two img{
+        width: 180px;
+        position: relative;
+        right: 70px;
+        top: 130px;
+    }
+    .about-us .container .row-left{
+        width: 598px;
+        height: 295px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        position: relative;
+        left: 50px;
+    }
+    .explore .container .row .col-photos .col-photos-gallery .photo-info{
+        width: 320px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card{
+        width: 280px;       
+    }
+    .insights .container .row-2 .row-2-layout .row-card img{
+        width: 280px;
+    }
+    .end .container .row .row-left .support ul .social a{
+        font-size: 8px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p{
+        font-size: 12px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p:nth-child(2){
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:768px){
+    .navbar .container .hamburger .ico{
+        visibility: visible;
+        position: absolute;
+        right: 390px;
+        color: white;
+        bottom: 7px;
+        z-index: 100;
+    }
+    .banner .container .row .row-left h1{
+        font-size: 25px;
+        width: 220px;
+        margin-right: 50px;
+    }
+    .banner .container .row .row-right p{
+        width: 260px;
+    }
+    .world .container .row .row-second .swiper .swiper-button-prev{
+        left: 585px;
+    }
+    .about-us .container .row-right .one img{
+        width: 180px;
+        position: relative;
+        left: 70px;
+        top: 30px;
+    }
+    .about-us .container .row-right .two img{
+        width: 180px;
+        position: relative;
+        right: 150px;
+        top: 130px;
+    }
+    .about-us .container .row-left{
+        width: 598px;
+        height: 295px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        position: relative;
+        left: 120px;
+    }
+    .about-us .container .row-left h3{
+        font-size: 42px;
+    }
+    .about-us .container .row-left p:nth-child(3){
+        width: 340px;
+        margin-bottom: 50px;
+    }
+    .explore .container .row .col-photos .col-photos-gallery .photo-info{
+        width: 250px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card{
+        width: 200px; 
+    }
+    .insights .container .row-2 .row-2-layout .row-card img{
+        width: 200px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p{
+        font-size: 10px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p:nth-child(2){
+        font-size: 12px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card a{
+        font-size: 12px;
+    }
+    .contact .container .row .row-info h3{
+        font-size: 28px;
+    }
+    .contact .container .row .row-info p{
+        font-size: 16px;
+        color: #fff;
+        padding-bottom: 25px;
+    }
+    .end .container .row .row-right{
+        position: relative;
+        right: 80px;
+    }
+    .end .container .row .row-right p:nth-child(2){
+        font-size: 14px;
+    }
+    .end .container .row .row-right a{
+        font-size: 10px;
+        background-color: black;
+        padding: 8px 8px;
+        border-radius: 20px;
+        color: white;
+    }
+    .end .container .row .row-right .email p{
+        font-size: 11px;
+    }
+    .end .container .row .row-right p:nth-child(4){
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:580px){
+    .world .container .row .row-second .swiper .swiper-button-prev{
+        left: 455px;
+    }
+    .about-us .container .row-left{
+        width: 598px;
+        height: 295px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        position: relative;
+        left: 240px;
+    }
+    .about-us .container .row-right .one img{
+        width: 180px;
+        position: relative;
+        left: 8px;
+        top: 30px;
+    }
+    .about-us .container .row-right .two img{
+        width: 180px;
+        position: relative;
+        right: 220px;
+        top: 130px;
+    }
+    .explore .container .row .col-head h3{
+        font-size: 32px;
+        font-family: "Roboto", sans-serif;
+        text-transform: capitalize;
+    }
+    .explore .container .row .col-photos{
+        width: 30%;
+        height: 61%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        right: 8%;
+        height: auto;
+    }
+    .explore .container .row .col-photos .col-photos-gallery {
+        width: 12%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; 
+    }
+    .explore .container .row .col-photos .col-photos-gallery .photo-info figure img{
+        width: 20%;
+    }
+    .explore .container .row .col-photos .col-photos-gallery:nth-child(1){
+        flex-wrap: wrap;
+    }
+    .insights .container .row .row-head-see a{
+        background-color: black;
+        padding: 10px 8px;
+        border-radius: 20px;
+        color: white;
+    }
+    .insights .container .row-2 .row-2-layout .row-card{
+        width: 120px; 
+        height: 410px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card img{
+        width: 120px;
+        height: 180px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p{
+        font-size: 8px;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p:nth-child(2){
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .world .container .row .row-second .swiper .swiper-button-prev{
+        left: 385px;
+    }
+    .end .container .row .row-right p:nth-child(1){
+        /* border: 1px solid black; */
+        position: relative;
+        right: 540px;
+        top: 250px;
+    }
+    .end .container .row .row-right p:nth-child(2){
+        position: relative;
+        right: 540px;
+        top: 250px;
+    }
+    .end .container .row .row-right .email{
+        position: relative;
+        right: 540px;
+        top: 250px;
+    }
+    .end .container .row .row-right p:nth-child(4){
+        position: relative;
+        right: 410px;
+        top: 100px;
+    }
+}
+@media screen and (max-width:480px){
+    .navbar .container .hamburger .ico{
+        visibility: visible;
+        position: absolute;
+        right: 340px;
+        color: white;
+        bottom: 7px;
+        z-index: 100;
+    }
+    .navbar .container .sign-in{
+        position: relative;
+        right: 20px;
+    }
+    .navbar .container .contact{
+        position: relative;
+        right: 30px;
+    }
+    .banner .container .row .row-left h1{
+        font-size: 20px;
+        position: relative;
+        left: 35px;
+    }
+    .banner .container .row .row-right p{
+        font-size:10px;
+        width: 120px;
+    }
+    .banner .container .row .row-right a{
+        font-size: 12px;
+    }
+    .world .container .row .row-first p{
+        width: 460px;
+        height: 54px;
+    }
+    .world .container .row .row-second .swiper .swiper-button-prev{
+        left: 355px;
+    }
+    .about-us .container .row-left{
+        position: relative;
+        left: 170px;
+    }
+    .about-us .container .row-left p:nth-child(1){
+        font-family: "Poppins";
+        height: 28px;
+        width: 588px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .about-us .container .row-left h3{
+        width: 588px;
+        height: 58px;
+        font-size: 32px;
+    }
+    .about-us .container .row-left p:nth-child(3){
+        width: 275px;
+        height: 81px;
+        line-height: 25px;
+        font-size: 13px;
+    }
+    .about-us .container .row-left a{
+        width: 127px;
+        height: 56px;
+        padding: 13px 17px;
+        background-color: black;
+        border-radius: 25px;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .about-us .container .row-right{
+        position: relative;
+        right: 80px;
+    }
+    .about-us .container .row-right .one img{
+        width: 40px;
+        height: 50px;
+        /* position: absolute; */
+        /* right: 190px; */
+        /* bottom: 80px; */
+    }
+    .about-us .container .row-right .two img{
+        width: 20px;
+        height: 50px;
+        position: absolute;
+        /* right: 280px; */
+        bottom: 80px;
+    }
+    .explorer{
+        height: auto;
+    }
+    .explore .container .row .col-head h3{
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+        text-transform: capitalize;
+    }
+    .explore .container .row .col-photos{
+        width: 50%;
+        height: 81%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        right: 8%;
+    }
+    .explore .container .row .col-photos .col-photos-gallery {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; 
+    }
+    .explore .container .row .col-photos .col-photos-gallery .photo-info figure img{
+        width: 20%;
+    }
+    .explore .container .row .col-photos .col-photos-gallery .photo-info .info-text h4{
+        font-size: 10px;
+    }
+    .explore .container .row .col-photos .col-photos-gallery .photo-info .info-text p{
+        font-size: 10px;
+    }
+    .end .container .row .row-left .contact-us{
+        position: relative;
+        right: 50px;
+    }
+    .end .container .row .row-left .support{
+        position: relative;
+        right: 50px;
+    }
+}
+@media screen and (max-width:380px) {
+    .navbar .container .hamburger .ico{
+        visibility: visible;
+        position: absolute;
+        right: 350px;
+        color: white;
+        bottom: -20px;
+        z-index: 100;
+    }
+    .banner .container .row{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .banner .container .row .row-left h1{
+        font-size: 20px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+    }
+    .banner .container .row .row-right p{
+        font-size:10px;
+        width: 120px;
+    }
+    .world .container .row .row-second .swiper .swiper-button-prev{
+        left: 215px;
+    }
+    .about-us .container .row .row-right .one{
+        position: relative;
+        right: 70px;
+    }
+    .insights .container .row .row-head{
+        width: 130px;
+    }
+    .insights .container .row .row-head p:nth-child(2){
+        font-size: 20px;
+    }
+    .insights .container .row .row-head p:nth-child(3){
+        font-size: 13px;
+    }
+   .insights .container .row .row-head-see a{
+        background-color: black;
+        padding: 10px 8px;
+        border-radius: 20px;
+        color: white;
+    }
+    .insights .container .row-2 .row-2-layout{
+        display: flex;
+        flex-direction: column;
+    }
+    .insights .container .row-2 .row-2-layout .row-card{
+        height: 20%;
+    }
+    .insights .container .row-2 .row-2-layout .row-card img{
+        height: 20%;
+        padding-bottom: 0;
+    }
+    .insights .container .row-2 .row-2-layout .row-card p, a{
+        padding: 0px 10px;
+    }
+    .contact .container .row p{
+        width: 40%;
+        padding-top: 20%;
+    }
+    .contact .container .row .row-info h3{
+        padding-top: 2%;
+        font-size: 24px;
+    }
+    .end .container .row .row-left .support{
+        position: relative;
+        display: flex;
+        top: 220px;
+        right: 130px;
+        flex-direction: column;
+    }
+    .end .container .row .row-left .support ul{
+        position: relative;
+        left: 10px;
+    }
+    .end .container .row .row-right{
+        position: relative;
+        left: -7px;
+    }
+}
